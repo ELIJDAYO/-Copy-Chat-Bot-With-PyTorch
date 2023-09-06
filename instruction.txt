@@ -1,1 +1,29 @@
-Chat Bot With PyTorch
+
+In Anaconda Prompt
+Create a conda environment with 
+    conda create -n pytorch python=3.7 -y
+
+Activate the new environment with 
+    conda activate pytorch
+
+Inside the new environment, install PyTorch and related packages with:
+    conda install python=3.6 pytorch torchvision matplotlib pandas -c pytorch
+
+
+
+Download miniconda
+Set default interpreter path 1st in the list in Python: Select interpreter
+
+(base) C:\Users\edayo>activate pytorch
+(pytorch) C:\Users\edayo>where python
+C:\Users\edayo\miniconda3\envs\pytorch\python.exe
+C:\Users\edayo\AppData\Local\Programs\Python\Python310\python.exe
+C:\Users\edayo\AppData\Local\Microsoft\WindowsApps\python.exe
+
+After activating pytorch    
+    pip install nltk
+
+To run the Program, from venv terminal
+    python nltk_utils.py
+
+Crtl+Shift+p select interpreter, select pytorch, conda activate pytorch
