@@ -27,3 +27,5 @@ To run the Program, from venv terminal
     python nltk_utils.py
 
 Crtl+Shift+p select interpreter, select pytorch, conda activate pytorch
+
+run train.py to generate data.pth
